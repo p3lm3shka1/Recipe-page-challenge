@@ -1,0 +1,137 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 54%, 90%);
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  width: 710px;
+  height: 1700px;
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
+
+.recipe-image {
+  border-radius: 10px;
+  width: 630px;
+  height: 290px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-size: 36px;
+  color: #2e2e2e;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-weight: 500;
+}
+
+.description {
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 16px;
+}
+
+.prep-time {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 20px 0;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+strong {
+  color: hsl(30, 10%, 34%);
+}
+
+.prep-time h3 {
+  font-family: "Outfit", serif;
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+ul,
+ol {
+  line-height: 1.6;
+  padding-left: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.prep-time li,
+.ingredients li,
+.instructions li {
+  font-family: "Outfit", sans-serif;
+  margin-bottom: 8px;
+  margin-left: 0px;
+  margin-right: 40px;
+  color: hsl(30, 10%, 34%);
+}
+
+hr {
+  font-family: "Outfit", sans-serif;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: 0;
+  height: 1px;
+  opacity: 0.2;
+  background-color: hsl(30, 10%, 34%);
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+  margin-top: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.note {
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.nutrition {
+  font-family: "Outfit", sans-serif;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+
+.nutrition td {
+  padding: 10px 0;
+  border-bottom: 0px solid hsla(0, 0%, 87%, 0.5);
+  margin-right: 80px;
+}
+
+li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.nutrition td:first-child {
+  color: hsl(0, 0%, 33%);
+}
+
+.nutrition td:last-child {
+  color: hsl(14, 45%, 36%);
+}
+
+.str {
+  color: hsl(332, 51%, 32%);
+}
+
